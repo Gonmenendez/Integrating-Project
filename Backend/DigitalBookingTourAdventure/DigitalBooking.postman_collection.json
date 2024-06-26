@@ -1,0 +1,651 @@
+{
+	"info": {
+		"_postman_id": "d688bff4-f8c6-4a07-b487-1fe01876ae4d",
+		"name": "DigitalBooking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10453913"
+	},
+	"item": [
+		{
+			"name": "Tour",
+			"item": [
+				{
+					"name": "GetAllTour",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tour",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tour"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllPageTour",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tour/page?page=0&size=9",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tour",
+								"page"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "size",
+									"value": "9"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetRandomTours",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tour/random-tours/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tour",
+								"random-tours",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTourById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tour/2",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tour",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTourByCategory",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tour/category/test 1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tour",
+								"category",
+								"test 1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetTourByName",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tour/2",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tour",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "InsertTour",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dates\": \"2022-11-30\",\r\n    \"description\": \"Visitamos la primera maravilla de Colombia con un a versión donde te recogemos.\",\r\n    \"shortDescription\":\"Visitamos la primera maravilla de Colombia\",\r\n    \"duration\": \"02:30:00\",\r\n    \"name\": \"Catedral de Sal Zipaquirá\",\r\n    \"price\": 20000.00,\r\n    \"score\": 4.0,\r\n    \"image\":\"https://media.staticontent.com/media/pictures/c1c4ef20-6c05-4d8d-9da4-0411c1f124fe/950x696\",\r\n    \"category\": {\r\n               \"title\": \"Tour grupal\", \r\n               \"description\": \"Tomar el tour grupal de ahí o se utilizan las audio guías disponibles e incluidas\",\r\n               \"urlImage\":\"https://media.staticontent.com/media/pictures/c1c4ef20-6c05-4d8d-9da4-0411c1f124fe/950x696\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tour",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tour"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "InsertTourWithImage",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "imageFiles",
+									"type": "file",
+									"src": [
+										"/C:/Users/Valeria Az/Downloads/bus-tour - copia (2).jpg",
+										"/C:/Users/Valeria Az/Downloads/bus-tour - copia (3).jpg",
+										"/C:/Users/Valeria Az/Downloads/bus-tour - copia (4).jpg",
+										"/C:/Users/Valeria Az/Downloads/bus-tour - copia.jpg"
+									]
+								},
+								{
+									"key": "dataTour",
+									"value": "{\n    \"dates\": \"2022-11-30\",\n    \"description\": \"Este Tour te llevará a conocer los sitios más representativos de la ciudad de la Magnifica Cartagena de indias (Corralito de Piedra)\",\n    \"shortDescription\": \"Realizaras un tour panorámico por el sector de Bocagrande\",\n    \"duration\": \"02:30:00\",\n    \"name\": \"City Tour Cartagena 1, Castillo y Cerro de la popa\",\n    \"price\": 20000.00,\n    \"score\": 4.0,\n    \"categories\": [\n        {\n            \"title\": \"Tour individual\"\n        },\n        {\n            \"title\": \"Tour grupal 2\"\n        }\n    ],\n}\n",
+									"type": "text"
+								},
+								{
+									"key": "imageMain",
+									"type": "file",
+									"src": "/C:/Users/Valeria Az/Downloads/bus-tour.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tour/image",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tour",
+								"image"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteTour",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tour/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tour",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Category",
+			"item": [
+				{
+					"name": "Get All Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tourcategory",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tourcategory"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "InsertCategory",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n               \"title\": \"Tour individual\", \r\n               \"description\": \"Tomar el tour individual para vivir una experiencia única\",\r\n               \"urlImage\":\"https://media.staticontent.com/media/pictures/c1c4ef20-6c05-4d8d-9da4-0411c1f124fe/950x696\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tourcategory",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tourcategory"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Category Tour",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tourcategory/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tourcategory",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Category",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tourcategory/2",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tourcategory",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "InsertTourCategoryWithImage",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "imageFile",
+									"type": "file",
+									"src": "/C:/Users/Valeria Az/Downloads/cartagena-walled-city-san-felipe-tour-5.jpg"
+								},
+								{
+									"key": "data",
+									"value": "{               \"title\": \"Tour grupal\", \n               \"description\": \"Tomar el tour grupal para vivir una experiencia única\"",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/tourCategory/image",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"tourCategory",
+								"image"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Location",
+			"item": [
+				{
+					"name": "Get All Location",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/location",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"location"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert Location",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Buenos Aires\",\r\n    \"description\": \"En Argentina\",\r\n    \"address\": \"Colon 414\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/location",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"location"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Location By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/location/2",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"location",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete by ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/location/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"location",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AWSS3",
+			"item": [
+				{
+					"name": "upload",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Valeria Az/Downloads/ontour.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/s3/upload",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"s3",
+								"upload"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/s3/list",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"s3",
+								"list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "download",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/s3/download?key=1685296585867_ontour.png",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"s3",
+								"download"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "1685296585867_ontour.png"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "url",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/s3/url?key=1685296585867_ontour.png",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"s3",
+								"url"
+							],
+							"query": [
+								{
+									"key": "key",
+									"value": "1685296585867_ontour.png"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "localhost:8080/api/v1/digitalbooking/api/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"la@hotmail.com\",\r\n    \"pasword\":\"ASDFGHJKLÑ\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/v1/digitalbooking/api/login",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"digitalbooking",
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,43 @@
+@import url('@utils/colors.css');
+
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mottoLink{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-self: center;
+}
+
+.brand img{
+    width: 9.5rem;
+}
+
+.motto {
+    height: 100%;
+    color: var(--bg-color);
+    font-size: 0.8rem;
+}
+
+@media (min-width: 481px){
+    .brand img{
+        width: 10rem;
+    }
+    .motto{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 769px){
+    .brand img{
+        width: 14rem;
+    }
+    .motto{
+        font-size: 1.2rem;
+    }
+}

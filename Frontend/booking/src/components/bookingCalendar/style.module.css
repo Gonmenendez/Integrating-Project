@@ -1,0 +1,11 @@
+@import url('../../utils/colors.css');
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar label{
+    padding: 10px 0px;
+}

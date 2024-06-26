@@ -1,0 +1,364 @@
+.categoriesTitle{
+    margin: 1.5rem 0rem 1.5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2categories{
+    display: inline;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: var(--white);
+    padding: 0rem 1rem;
+    margin: 0;
+    z-index: 10;
+}
+
+.categoriesTitle hr{
+    width: 95%;
+    height: 2px;
+    position: absolute;
+    background-color: var(--secondary-color);
+    border: none;
+    top: 50%;
+    z-index: 1;    
+}
+
+.categoryHr{
+    margin: 0;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--secondary-color);
+    padding-bottom: 2rem;
+}
+
+.categories h1{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.container{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skeletonCategory{
+    width: 41%;
+    height: 20vh;
+    background-color: var(--skeleton-gray);
+    margin: 0.5rem;
+    border: none;
+    border-radius: 0.31rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: animacionDeCarga 2s infinite;
+}
+
+.skeletonCategoryTitle{
+    width: 5rem;
+    height: 1rem;
+    background-color: #808080;
+    animation: animacionDeCarga 2s infinite;
+}
+
+@keyframes animacionDeCarga {
+    0% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
+}
+
+.item{    
+    width: 41%;
+    height: 20vh;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 0.31rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position: center;
+    -webkit-transition: all 0.7s ease-in-out;
+}
+
+.item:hover{
+    width: 90%;
+    height: 50vh;
+    background-size: 200%;
+}
+
+.item:before{
+    content: "";
+    position: absolute;
+    background: var(--black);
+    border-radius: 0.31rem;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.item:hover::before{
+    content: "";
+    position: absolute;
+    background: var(--black);
+    border-radius: 0.31rem;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    z-index: 1;
+}
+
+.item h3{
+    color: var(--white);
+    font-size: 1.4rem;
+    z-index: 10;
+}
+
+.categoryDetail{
+    width: 90%;
+    gap: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoryDetail h3{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.categoryDetail p{
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--white);
+    z-index: 10;
+}
+
+.cardsContainer{
+    width: 98%;
+    height: 40%;
+    background-color: var(--bg-color);
+    border-radius: 0.31rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+
+.productCard{
+    padding: 0.2rem 0 0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.product{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product img{
+    width: 100%;
+    border-radius: 0.31rem;
+}
+
+.productDetail{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productDetail h3{
+    color: var(--black);
+}
+
+.item a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 0.31rem;
+    padding: 0.7rem;
+    z-index: 10;
+}
+
+.item a:active{
+    background-color: var(--darker-color);
+}
+
+.moreCategories{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--darker-color);
+    border: none;
+    border-radius: 0.31rem;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    align-self: center;
+    z-index: 10;
+}
+
+.moreCategories:active{
+    border: solid 1px var(--darker-color);
+    background-color: var(--bg-color);
+}
+
+.desktopCategory{
+    display: none;
+}
+
+.desktopProducts{
+    display: none;
+}
+
+
+/*Tablet*/
+@media (min-width: 481px){
+    .h2categories{
+        font-size: 2.5rem;
+    }
+
+    .categoriesTitle hr{
+        height: 4px;
+    }
+    
+    .container{
+        justify-content: center;
+    }
+    
+    .skeletonCategory{
+        width: 40%;
+    }
+
+    .skeletonCategoryTitle{
+        width: 6rem;
+    }
+
+    .item{
+        width: 40%;
+    }
+
+    .cardsContainer{
+        height: 70%;
+    }
+
+    .productDetail{
+        justify-content: center;
+    }
+
+    .productDetail h3{
+        font-size: 1.6rem;
+    }
+
+    .productDetail p{
+        font-size: 1.4rem;
+    }
+
+    .desktopCategory{
+        display: flex;
+    }
+
+    .desktopProducts{
+        display: flex;
+    }
+}
+
+/*Desktop*/
+@media (min-width: 1280px){
+    .skeletonCategory{
+        width: 35%;
+        height: 50vh;
+    }
+    
+    .item{
+        width: 35%;
+        height: 50vh;
+    }
+
+    .item:hover{
+        width: 35%;
+        height: 50vh;
+        background-size: 200%;
+    }
+
+    .cardsContainer{
+        height: 60%;
+        flex-direction: row;
+    }
+
+    .productCard{
+        padding-top: 0.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product{
+        width: 60%;
+        padding: 0.2rem;
+    }
+
+    .productDetail{
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .productDetail h3{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .productDetail p{
+        font-size: 1rem;
+    }
+
+    .item a:hover{
+        background-color: var(--bg-color);
+    }
+
+    .item a:active{
+        background-color: var(--darker-color);
+    }
+
+    .moreCategories:hover{
+        background-color: var(--bg-color);
+    }
+
+    .moreCategories:active{
+        background-color: var(--secondary-color);
+    }
+}
+

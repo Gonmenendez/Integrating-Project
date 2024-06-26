@@ -1,0 +1,71 @@
+@import url('@utils/colors.css');
+
+.carousel{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.carousel::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--black);
+    opacity: 0.85;
+    z-index: -10;
+}
+
+.carouselContainer{
+    width: 100%;
+    border-radius: 0.31rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgContainer{
+    width: 90%;
+    margin: 5px;
+    border-radius: 0.31rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carouselContainer img{
+    max-width: 100%;
+}
+
+.carouselButtons{
+    background-color: transparent;
+    border: none;
+}
+
+.carouselButtons i{
+    font-size: 2rem;
+    color: var(--bg-color);
+}
+
+/*Tablet*/
+@media (min-width: 481px){
+    .carouselContainer img{
+        width: 100%;
+        border-radius: 0.31rem;
+    }
+
+    .carouselButtons i{
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1280px){
+    .carouselContainer{
+        width: 70%;
+    }
+}

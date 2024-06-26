@@ -1,0 +1,71 @@
+@import url('@utils/colors.css');
+
+.specificCard{
+    width: 90%;
+    border: 2px solid var(--secondary-color);
+    border-radius: 0.31rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.specificCard img{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.31rem;
+}
+
+.specificCard hr{
+    width: 100%;
+    border: 1px solid var(--secondary-color);
+}
+
+.dataContainer{
+    align-self: flex-start;
+    margin-left: 0.5rem;
+}
+
+.dataContainer h2{
+    color: var(--darker-color);
+    margin: 1rem;
+    margin-top: 1.5rem;
+}
+
+.dataContainer .dataDescription{
+    font-size: 1rem;
+    text-align: justify;
+    color: var(--black);
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/*Tablet*/
+@media (min-width: 481px){
+    .dataContainer h2{
+        font-size: 3rem;
+    }
+
+    .dataContainer .dataDescription{
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 769px){
+    
+}
+
+/*Desktop*/
+@media (min-width: 1280px){
+    .specificCard{
+        width: 55%;
+    }
+
+    .dataContainer h2{
+        font-size: 2rem;
+    }
+
+    .dataContainer .dataDescription{
+        font-size: 1.3rem;
+    }
+}

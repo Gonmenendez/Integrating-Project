@@ -1,0 +1,173 @@
+@import url('../../utils/colors.css');
+
+.categoryFormContainer{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1000;
+    background: rgba(49, 49, 49, 0.8);
+    
+}
+
+.registerCategory {
+    gap: 5rem;
+    width: 40%;
+    height: 50vh;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-radius: 0.31rem;
+
+}
+
+.addCategoryForm {
+    width: 80%;
+    /* margin-top: 3rem; */
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.addCategoryForm label{
+    padding-top: 0.5rem;
+}
+
+.addCategoryForm li{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.id{
+    display: flex;
+    width: 8rem;
+}
+
+.addCategoryForm input, textarea{
+    height: 2.5rem;
+    border-radius: 0.31rem;
+    border: solid 1px var(--darker-color);
+    padding-left: 0.5rem;
+}
+
+.addCategoryForm textarea{
+    height: 4rem;
+}
+
+
+.addCategoryForm input:focus, textarea:focus{
+    background-color: var(--secondary-color);
+}
+
+.addCategoryForm button{
+    color: var(--bg-color);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0.5;
+    background-color: var(--darker-color);
+    border: none;
+    border-radius: 0.31rem;
+    padding: 0.7rem 1.2rem;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.addCategoryForm .submitButton{
+    opacity: 1;
+}
+
+.addCategoryForm .submitButton:active{
+    background-color: var(--primary-color);
+}
+
+.addCategoryForm input:invalid, textarea:invalid{
+    background-image: linear-gradient(to right, var(--white), var(--secondary-color));
+}
+
+.addCategoryForm input:valid textarea:valid{
+    border: 2px solid var(--secondary-color);
+}
+
+.validationError{
+    padding: 0.1rem;
+    padding-left: 1rem;
+    color: var(--error);
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.picsInputs{
+    width: 10rem;
+    height: 2.5rem;
+    color: var(--darker-color);
+    background-color: var(--secondary-color);
+    border-radius: 0.31rem;
+    /* box-shadow: 1px 1px 2px var(--primary-color); */
+    padding-left: 0.5rem;
+    padding-top: 0 !important;
+    display: flex;
+    align-items: center;
+}
+
+.picsInputs:active{
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+    box-shadow: none;
+}
+
+.categoryPhotoInput{
+    margin-top: 1rem;
+    flex-direction: row !important;
+    align-items: center;
+}
+
+/*Tablet*/
+@media (min-width: 481px){
+    .addCategoryForm {
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px){
+    .addCategoryForm {
+        width: 60%;
+    }
+
+}
+
+/*Desktop*/
+@media (min-width: 1280px){
+
+    .registerCategory{
+        width: 50%;
+    }
+
+    .addCategoryForm .submitButton:hover{
+        opacity: 0.7;
+    }
+
+    .addCategoryForm .submitButton:active{
+        background-color: var(--primary-color);
+    }
+
+    .registerCategory button:hover{
+        background-color: var(--darker-color);
+    }
+
+    .registerCategory button:active{
+        border: solid 1px var(--darker-color);
+        background-color: var(--bg-color);
+    }
+
+    .picsInputs:hover, .assignCategory:hover{
+        opacity: 0.8;
+    }
+}

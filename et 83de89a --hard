@@ -1,0 +1,487 @@
+[33mcommit 83de89ad8ac652016d75aeaa5709bad41320b4fa[m[33m ([m[1;36mHEAD -> [m[1;32mconfirmation-data[m[33m, [m[1;31morigin/confirmation-data[m[33m, [m[1;32mpresentation[m[33m)[m
+Author: Gonzalo Nicolás Menéndez <85567535+Gonmenendez@users.noreply.github.com>
+Date:   Thu Jun 29 17:28:43 2023 -0300
+
+    backend updated
+
+[33mcommit 2398482db916f36e077b39767b349e7f7922a77c[m
+Author: Sara Lopez <sara-lohe@hotmail.com>
+Date:   Thu Jun 29 15:20:34 2023 -0500
+
+    arreglo de body para el back
+
+[33mcommit e6ff57f586a46dfbd3af9968a54df4d3b70c7db8[m
+Merge: d4f1c4f d5c0100
+Author: Sara Lopez <sara-lohe@hotmail.com>
+Date:   Thu Jun 29 13:37:12 2023 -0500
+
+    Merge branch 'presentation' into confirmation-data
+
+[33mcommit d4f1c4f4d4f2ac9ea42dd2fde1b6ac4a2bd6319a[m
+Author: Sara Lopez <sara-lohe@hotmail.com>
+Date:   Thu Jun 29 11:54:40 2023 -0500
+
+    nueva pagina de confirmacion de reserva
+
+[33mcommit d5c01000647e3ed8df0e3443843211b66e0474a1[m
+Author: Gonzalo Nicolás Menéndez <85567535+Gonmenendez@users.noreply.github.com>
+Date:   Thu Jun 29 03:40:32 2023 -0300
+
+    Merge conflicts solved
+
+[33mcommit 019c131e8569f47a51b460546946252dfd9f7daf[m
+Merge: 3ddc9ee 5c2419a
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Thu Jun 29 01:13:45 2023 -0500
+
+    reservations screens merge to presentation
+
+[33mcommit 5c2419a955c0cb694b1bc98c500fc3c584b34b78[m[33m ([m[1;31morigin/confirmed-reserved-products-page[m[33m)[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Thu Jun 29 01:05:08 2023 -0500
+
+    finished logic and styles for page. Mock test successful
+
+[33mcommit 3ddc9ee830b6da90f400d5276308e7affc8bcde1[m
+Author: Dayanna Bechara <dayanabechara@hotmail.com>
+Date:   Wed Jun 28 23:33:28 2023 -0500
+
+    Ajuste estilo tour
+
+[33mcommit 193fd44f87e69c22b77530fd12642fe982d1f474[m
+Author: Dayanna Bechara <dayanabechara@hotmail.com>
+Date:   Wed Jun 28 23:13:22 2023 -0500
+
+    Mejoras estilos
+
+[33mcommit 4cc73708485775428362455492abbba3fa3619ea[m
+Author: Dayanna Bechara <dayanabechara@hotmail.com>
+Date:   Wed Jun 28 22:46:48 2023 -0500
+
+    Admin panel
+
+[33mcommit 35d54a49d7efd5b4deab6f86192b60021d341798[m
+Author: Dayanna Bechara <dayanabechara@hotmail.com>
+Date:   Wed Jun 28 22:37:02 2023 -0500
+
+    Fix errors
+
+[33mcommit f7516286d898c53bc7a6950fb59cb64a0cfe816c[m
+Merge: 76157a9 3fc81f0
+Author: Dayanna Bechara <dayanabechara@hotmail.com>
+Date:   Wed Jun 28 22:25:11 2023 -0500
+
+    Merge branch 'presentation' of https://gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0523/1021pt-c1/equipo-3 into presentation
+
+[33mcommit 76157a9361e497bea1e1bc460336596ce887a913[m
+Author: Dayanna Bechara <dayanabechara@hotmail.com>
+Date:   Wed Jun 28 22:23:17 2023 -0500
+
+    Ajustes login
+
+[33mcommit 3fc81f06ad758f372cbc18ca89fb048f01c065f1[m
+Author: Gonzalo Nicolás Menéndez <85567535+Gonmenendez@users.noreply.github.com>
+Date:   Thu Jun 29 00:17:05 2023 -0300
+
+    Calendar complete
+
+[33mcommit d6978bf5dafc4c39f68de6bf32e61eeffdf1b65a[m
+Merge: 7023ede 245c917
+Author: Gonzalo Nicolás Menéndez <85567535+Gonmenendez@users.noreply.github.com>
+Date:   Wed Jun 28 09:58:56 2023 -0300
+
+    Merge branch 'presentation' of https://gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0523/1021pt-c1/equipo-3 into presentation
+
+[33mcommit 2501da3d04a3ca02b6cd84cd3785fca2a6402977[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Tue Jun 27 20:25:03 2023 -0500
+
+    logic and map for reserved products page, ready to test
+
+[33mcommit 7023eded94ce27f2128db657a169bd57373d48db[m
+Author: Gonzalo Nicolás Menéndez <85567535+Gonmenendez@users.noreply.github.com>
+Date:   Tue Jun 27 13:46:30 2023 -0300
+
+    Booking calendar
+
+[33mcommit 440bfc275f3b3ff9cbf4ba26875854631bc04857[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Tue Jun 27 05:20:59 2023 -0500
+
+    new reserves screen, route buttons added, no func
+
+[33mcommit 245c917a4284cd716fc44b12251ec6505cd60c19[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Mon Jun 26 21:26:51 2023 -0500
+
+    test user is logged context
+
+[33mcommit e959749e6133792bd1447de234fed7867086801a[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Mon Jun 26 21:25:40 2023 -0500
+
+    test user is logged
+
+[33mcommit 06d0300cf28f038590a8bc6f7c2efba8ceaf730c[m
+Merge: d7a3e70 f46b867
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Mon Jun 26 20:49:31 2023 -0500
+
+    Merge branch 'back-booking-tourimage' of https://gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0523/1021pt-c1/equipo-3 into presentation
+
+[33mcommit d7a3e70830b1b56b1e4fc529680c1fba64c2e75b[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Mon Jun 26 20:46:03 2023 -0500
+
+    merge try
+
+[33mcommit 90642c5a896c6735e7a709762b3b4fa3db19731a[m[33m ([m[1;31morigin/us37-visualizar-detalle[m[33m)[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Mon Jun 26 20:40:36 2023 -0500
+
+    reservation container in product
+
+[33mcommit f46b8673fe981c884dac1ea6ddb42633fb550e10[m
+Author: Valeria Aristizabal <valeriaaristizabal6@gmail.com>
+Date:   Mon Jun 26 20:20:50 2023 -0500
+
+    fix update tour availability
+
+[33mcommit 4d9eadac085baabe9437f91227a443d82cd8a754[m
+Author: Nesarifr <nestorarielfrias@gmail.com>
+Date:   Mon Jun 26 21:53:07 2023 -0300
+
+    fix bookingline autodelete
+
+[33mcommit 2a51c44df64e4bcbb122f9abeb82e3c30b88dc41[m
+Author: Nesarifr <nestorarielfrias@gmail.com>
+Date:   Mon Jun 26 21:10:37 2023 -0300
+
+    fix post booking
+
+[33mcommit 0e029d28a4bbe2362c60663d7a217294989c9cf5[m
+Author: Valeria Aristizabal <valeriaaristizabal6@gmail.com>
+Date:   Sun Jun 25 22:34:18 2023 -0500
+
+    Add totalPrice and available dates logic
+
+[33mcommit 1aaf11962e68bb95f7bb22648555d8cb1eb41a3e[m
+Author: Valeria Aristizabal <valeriaaristizabal6@gmail.com>
+Date:   Sat Jun 24 23:17:33 2023 -0500
+
+    Add service bookiline
+
+[33mcommit dc56fd430d3f6eb4b14d817400da5ba30fdb9552[m
+Author: Valeria Aristizabal <valeriaaristizabal6@gmail.com>
+Date:   Sat Jun 24 21:22:04 2023 -0500
+
+    Fix startTime
+
+[33mcommit 7f8f9d87c9bb980c0e6abb51e5667e48c2191caa[m
+Author: Nesarifr <nestorarielfrias@gmail.com>
+Date:   Sat Jun 24 22:18:33 2023 -0300
+
+    POST Booking working
+
+[33mcommit 53a87e7b4e6a2bf4590973d2192995b641e37942[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Sat Jun 24 05:35:01 2023 -0500
+
+    drop shadow added
+
+[33mcommit db725a7a6d595185bdf8d284d021f7838943104e[m
+Author: Valeria Aristizabal <valeriaaristizabal6@gmail.com>
+Date:   Fri Jun 23 22:28:13 2023 -0500
+
+    fix post tour
+
+[33mcommit d7a613deeb8a5f59ee71a7de0959eb7224149c99[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Fri Jun 23 21:26:10 2023 -0500
+
+    redirection logic to non logged user, tool tip message on sign up screen
+
+[33mcommit 64d1ebb2d8cde133d6e0712fe1416b33ecb35a59[m
+Author: Nesarifr <nestorarielfrias@gmail.com>
+Date:   Fri Jun 23 23:00:07 2023 -0300
+
+    queda reparar tourimage
+
+[33mcommit 077a1e7c907beb1dd59b0ce5af2f9d13952c8356[m[33m ([m[1;31morigin/back-booking[m[33m)[m
+Author: KaoruH <tatiane_tanizaki@hotmail.com>
+Date:   Fri Jun 23 18:03:05 2023 -0300
+
+    Fixed entities relationships, added and fixed some variables in Tour, created BookingRepository and Service with a basic code to be fixed
+
+[33mcommit 72ead937c907afd2149508cb22e97e4ed3f25d1a[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Thu Jun 22 21:59:58 2023 -0500
+
+    first commit, basic container and button
+
+[33mcommit d490738a75e9911cec1d43782c3b3a05247bb4e2[m
+Author: Nesarifr <nestorarielfrias@gmail.com>
+Date:   Thu Jun 22 23:19:39 2023 -0300
+
+    fix frontend
+
+[33mcommit 0c57be67f58de5dde8c30015ac8b5b1c86462553[m
+Author: KaoruH <tatiane_tanizaki@hotmail.com>
+Date:   Thu Jun 22 14:28:21 2023 -0300
+
+    Added quantity in Tour and its constructor. Added a constructor for booking.
+
+[33mcommit a54cceb8a7525db846893ff34b1ecc7281f0db92[m
+Author: KaoruH <tatiane_tanizaki@hotmail.com>
+Date:   Thu Jun 22 14:24:04 2023 -0300
+
+    Basic entity structure for booking
+
+[33mcommit 094901d29b8c9641b55488dd3afe2f285936dd56[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Wed Jun 21 22:34:23 2023 -0300
+
+    Pagination added
+
+[33mcommit 2f1d12d802cb2fde1055eb371f111ea7fb848cce[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Wed Jun 21 21:59:31 2023 -0300
+
+    Rating system repaired
+
+[33mcommit 3d9e79bdc49af93afcde478932395f8727c46ddc[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Wed Jun 21 21:56:14 2023 -0300
+
+    ToursScreen modif
+
+[33mcommit fc5f7591434389929d568df8ea08d96f01942bbe[m
+Merge: 1a7655f 283f23b
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Wed Jun 21 21:55:54 2023 -0300
+
+    Merging rating system and principal front branch
+
+[33mcommit 1a7655f425f6dc3ac8b303f8fd57192bb7012cde[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Wed Jun 21 17:40:41 2023 -0300
+
+    Merging rating system with tech debts solutions
+
+[33mcommit 3a3e219896485bdb33d668f20b6963002f60a36f[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Thu Jun 15 22:54:09 2023 -0300
+
+    final
+
+[33mcommit 1cc0b65aad8f9af7bc2c90b6ba0a895922b607bc[m
+Author: KaoruH <tatiane_tanizaki@hotmail.com>
+Date:   Thu Jun 15 22:47:17 2023 -0300
+
+    Running for sprint 3
+
+[33mcommit 2bf826d9df1f4b15e398550f6ff3a3b38d94a14c[m
+Author: KaoruH <tatiane_tanizaki@hotmail.com>
+Date:   Thu Jun 15 22:41:50 2023 -0300
+
+    Running for sprint 3
+
+[33mcommit a93dbbe04b2d06cce44583ff4f34397f4b3dce07[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Thu Jun 15 20:45:53 2023 -0300
+
+    Sprint 3
+
+[33mcommit 7386e4880ea66680f5ad6cb4c894f57427e8a76e[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Thu Jun 15 20:43:56 2023 -0300
+
+    Tech debts solved
+
+[33mcommit 71392f58a907716668f1bc515f5598bd3e326d3c[m[33m ([m[1;31morigin/frontend[m[33m)[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Thu Jun 15 18:44:14 2023 -0300
+
+    Merge solved
+
+[33mcommit 8a4f1cdee7dabe46f50c550e43fabea388bdb73d[m
+Merge: c85f8d5 f8baf27
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Thu Jun 15 18:43:43 2023 -0300
+
+    Merge solved
+
+[33mcommit c85f8d54c85c7c14449fd30264cc0d6b04bc6bed[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Thu Jun 15 18:39:33 2023 -0300
+
+    Working on styles and UX
+
+[33mcommit 283f23b1db31ed377e6304d9ac0b91c030e8d009[m[33m ([m[1;31morigin/rating-system[m[33m)[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Wed Jun 14 22:25:31 2023 -0500
+
+    API connection logic and useContext email and bool, missing return average value
+
+[33mcommit f8baf276e2bc9cd87e990a9cbcd064ee57e0eb53[m
+Author: Dayanna Bechara <dayanabechara@hotmail.com>
+Date:   Wed Jun 14 20:22:05 2023 -0500
+
+    Ajustes login
+
+[33mcommit ba39d2baeb70ccbbbcbdab84649ee5ab3ccf253b[m
+Merge: 7c947b1 a697217
+Author: Dayanna Bechara <dayanabechara@hotmail.com>
+Date:   Wed Jun 14 19:39:52 2023 -0500
+
+    Merge branch 'back-sprint-2' of https://gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0523/1021pt-c1/equipo-3 into frontend
+
+[33mcommit 8d9f87679640fc7c0e2014eb037c2ac028be57cc[m
+Merge: e8e2a5f dca9a59
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Wed Jun 14 00:14:20 2023 -0300
+
+    Merge branch 'back-images-tours' of https://gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0523/1021pt-c1/equipo-3 into frontend
+
+[33mcommit e8e2a5f47d5feab1126e8437d9f3f46beb858982[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Wed Jun 14 00:13:55 2023 -0300
+
+    Fixing things
+
+[33mcommit dca9a59fdf84404982eebabf25b5b8404444b7e5[m[33m ([m[1;31morigin/back-images-tours[m[33m)[m
+Author: Valeria Aristizabal <valeriaaristizabal6@gmail.com>
+Date:   Tue Jun 13 22:12:51 2023 -0500
+
+    Add imagenes to getRandomTours
+
+[33mcommit 6f2c0be635ec10383bfee81c1baa14b1378065d5[m
+Merge: 00b20b1 7f4eae7
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Tue Jun 13 23:37:17 2023 -0300
+
+    Merge branch 'back-images-tours' of https://gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0523/1021pt-c1/equipo-3 into frontend
+
+[33mcommit 00b20b1927b41eb7e5296675bc586677f02dd0af[m
+Merge: 7d0cd2b 7c947b1
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Tue Jun 13 23:36:50 2023 -0300
+
+    Merge branch 'frontend' of https://gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0523/1021pt-c1/equipo-3 into frontend
+
+[33mcommit 7d0cd2b60b25c0808b292670950762b21c6d0155[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Tue Jun 13 23:36:43 2023 -0300
+
+    Assign categories and productformscreen updates
+
+[33mcommit 7f4eae745aec707b278d896edc5e935550a115a3[m
+Author: Valeria Aristizabal <valeriaaristizabal6@gmail.com>
+Date:   Tue Jun 13 19:45:23 2023 -0500
+
+    Add getAllPageTour and list images
+
+[33mcommit d3602d19a2e09290d7fb1b4e32707e6aa73b6be1[m
+Author: Valeria Aristizabal <valeriaaristizabal6@gmail.com>
+Date:   Sat Jun 10 21:20:40 2023 -0500
+
+    add many to many relationship between tour and categories and cyclic reference solution
+
+[33mcommit cabe3d3b2c9a495e1cc6cd62fab83ffb6b7713f3[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Fri Jun 9 22:19:35 2023 -0500
+
+    visual logic displaying value pending
+
+[33mcommit a69721734c2cce18fbd45278598428c495435d1f[m[33m ([m[1;31morigin/back-sprint-2[m[33m)[m
+Author: KaoruH <tatiane_tanizaki@hotmail.com>
+Date:   Fri Jun 9 15:42:47 2023 -0300
+
+    Added endpoints do add and remove authorities, add endpoint to false delete user, changed cors config to accept all origins, changed how authorities are loaded, fixed Admin password problems
+
+[33mcommit cc1e7c2ec24de08797d29a4bc0475c20011f80db[m
+Merge: b9eabec f436ba6
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Thu Jun 8 21:44:43 2023 -0500
+
+    most logic written, missing conditional for logged in
+
+[33mcommit 2e540e8c91d452d57b7c91a43b6600ff7c2d834b[m
+Author: KaoruH <tatiane_tanizaki@hotmail.com>
+Date:   Thu Jun 8 23:18:55 2023 -0300
+
+    Fixed Token info
+
+[33mcommit 7c947b12c837c56d520f87277590b40cea8ed0bf[m
+Author: Dayanna Bechara <dayanabechara@hotmail.com>
+Date:   Thu Jun 8 20:25:40 2023 -0500
+
+    Remove console logs
+
+[33mcommit f69891188afcb4f6d55a6a5128eb6d2e73e1593e[m
+Author: Dayanna Bechara <dayanabechara@hotmail.com>
+Date:   Thu Jun 8 20:06:54 2023 -0500
+
+    Loading y ajustes de estilos
+
+[33mcommit b9eabec77fe33c01b9c5ada6e7d4ed07932d3bae[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Thu Jun 8 19:17:29 2023 -0500
+
+    logic test
+
+[33mcommit e3e3947951a3bc9259bf458e8b157eae85d61ea6[m
+Author: Dayanna Bechara <dayanabechara@hotmail.com>
+Date:   Thu Jun 8 19:12:55 2023 -0500
+
+    Add redux persistor
+
+[33mcommit 4ee6618354d930774d8b66ea0fbfd0fe22968707[m
+Author: Dayanna Bechara <dayanabechara@hotmail.com>
+Date:   Thu Jun 8 18:54:37 2023 -0500
+
+    Update login logic
+
+[33mcommit f436ba6541ace05e168cea981816d59e81bf63a6[m
+Author: lu_mfm <luismi_rocks@hotmail.com>
+Date:   Wed Jun 7 22:03:45 2023 -0500
+
+    advances in logic, not functional
+
+[33mcommit c8e6f2865b0f700b5cf618b095c80bbd3a886fa8[m
+Merge: 4c05eed 1e404ce
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Wed Jun 7 23:36:24 2023 -0300
+
+    Merge branch 'back-images-tours' of https://gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0523/1021pt-c1/equipo-3 into frontend
+
+[33mcommit 4c05eede5d60cce250c0c509d7c8a527432da9c3[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Wed Jun 7 23:35:39 2023 -0300
+
+    Working on tech debts and fixing footer img
+
+[33mcommit 1e404cef26323812500fcd3745c4a092352a761c[m
+Author: Valeria Aristizabal <valeriaaristizabal6@gmail.com>
+Date:   Wed Jun 7 21:32:50 2023 -0500
+
+    Add images
+
+[33mcommit b9001c682f6a36469333c1b7d7f32d50695c10a0[m
+Author: Luis Molina <luismi_rocks@hotmail.com>
+Date:   Tue Jun 6 21:34:36 2023 -0500
+
+    first commit, MUI installation
+
+[33mcommit 44db0e237b1d4be3f1e6b31c25a9af29e283f9d9[m
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Fri Jun 2 23:11:04 2023 -0300
+
+    Sprint 2 presentation
+
+[33mcommit 912d1f65c5274505e1fbe36c0cba813787a3e72c[m
+Merge: 8e6eae4 c34f388
+Author: gnmenendez <gnmenendez@gmail.com>
+Date:   Fri Jun 2 20:48:13 2023 -0300
+
+    Merge branch 'frontend' of https://gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0523/1021pt-c1/equipo-3 into frontend

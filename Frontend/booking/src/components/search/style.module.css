@@ -1,0 +1,146 @@
+@import url('../../utils/colors.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.admin{
+    margin: 20px auto;
+    text-align: center;
+}
+.admin .buttons{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin .buttons a{
+    padding: 10px;
+    margin: 0px 20px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchForm{
+    width: 100%;
+    height:30vh;
+    background-image: url('https://wallpapers.com/images/featured/d8f020n7kiyvc721.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;   
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    position: relative;
+}
+
+.addTour{
+    color: var(--darker-color);
+    background-color: var(--bg-color);
+    border-radius: 0.31rem;
+    border: solid 1px var(--darker-color);
+    padding: 0.3rem;
+    text-decoration: none;
+    display: flex;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.addTour:active{
+    color: var(--bg-color);
+    background-color: var(--darker-color);
+}
+
+.searchBar{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.searchInput{
+    width: 100%;
+    height: 2.5rem;
+    font-size: 0.79rem;
+    border: none;
+    border-radius: 5em;
+    padding-left: 0.7rem;
+}
+
+.searchButton{
+    width: 2.2rem;
+    height: 2.2rem;
+    text-align: center;
+    border: none;
+    background-color: var(--darker-color);
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    position: absolute;
+    right: 0.19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchButton img{
+    position: relative;
+    left: 1px;
+}
+
+
+/*Tablet*/
+@media (min-width: 481px){
+    .searchBar{
+        top: 3rem;
+    }
+
+    .searchInput{
+        font-size: 1.2rem;
+    }
+
+    .addTour{
+        top: 2.5rem;
+        right: 2rem;
+    }
+}
+
+@media (min-width: 769px){
+    .searchInput{
+        font-size: 1.3rem;
+    }
+
+}
+
+/*Desktop*/
+@media (min-width: 1280px){
+    /* .searchForm{
+        height: 40vh;
+    } */
+
+    .searchInput{
+        height: 3.3rem;
+        padding-left: 1.2rem;
+    }
+
+    .searchButton{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .searchButton img{
+        scale: 1.4;
+    }
+
+    .addTour:hover{
+        color: var(--bg-color);
+        background-color: var(--darker-color);
+    }
+}

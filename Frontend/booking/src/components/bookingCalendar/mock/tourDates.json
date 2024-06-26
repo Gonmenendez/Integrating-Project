@@ -1,0 +1,34 @@
+[{
+    "name": "Catedral de Sal Zipaquirá",
+    "description": "Visitamos la primera maravilla de Colombia con un a versión donde te recogemos.",
+    "shortDescription":"Visitamos la primera maravilla de Colombia",
+    "price": 20000.00,
+    "score": 4.0,
+    "duration": "1 dia",
+    "startTime": "10:00:00",
+    "category": {
+        "title": "Tour grupal", 
+        "description": "Tomar el tour grupal de ahí o se utilizan las audio guías disponibles e incluidas",
+        "urlImage":"https://media.staticontent.com/media/pictures/c1c4ef20-6c05-4d8d-9da4-0411c1f124fe/950x696"
+    },
+    "quantity": 10,
+    "availability": { "2023-06-25" : 10 ,"2023-06-26":10 ,"2023-06-27":0, "2023-06-29":10}
+},
+{
+    "name": "Catedral de Sal Zipaquirá",
+    "description": "Visitamos la primera maravilla de Colombia con un a versión donde te recogemos.",
+    "shortDescription":"Visitamos la primera maravilla de Colombia",
+    "price": 20000.00,
+    "score": 4.0,
+    "duration": "1 dia",
+    "startTime": "10:00:00",
+    "category": {
+        "title": "Tour grupal", 
+        "description": "Tomar el tour grupal de ahí o se utilizan las audio guías disponibles e incluidas",
+        "urlImage":"https://media.staticontent.com/media/pictures/c1c4ef20-6c05-4d8d-9da4-0411c1f124fe/950x696"
+    },
+    "quantity": 10,
+    "availability": { "2022-12-25" : 10 ,"2022-12-26":10 ,"2022-12-27":10 },
+    "image":"https://media.staticontent.com/media/pictures/c1c4ef20-6c05-4d8d-9da4-0411c1f124fe/950x696"
+
+}]

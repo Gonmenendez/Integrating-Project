@@ -1,0 +1,33 @@
+stages:
+  - backend_build
+  - frontend_build
+  - test_backend
+  - test_frontend
+  - deploy
+
+backend_build:
+  stage: backend_build
+  script:
+    - echo "Compiling the backend code..."
+
+frontend_build:
+  stage: frontend_build
+  script:
+    - echo "Compiling the frontend code..."
+
+test_backend:
+  stage: test_backend
+  script:
+    - echo "Running backend unit tests..."
+
+test_frontend:
+  stage: test_frontend
+  script:
+    - echo "Running frontend unit tests..."
+
+deploy:
+    stage: deploy
+    environment: production
+    script:
+      - echo "Deploying application"
+

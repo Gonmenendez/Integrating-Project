@@ -1,0 +1,29 @@
+@import url('@utils/colors.css');
+
+.footer{
+    height: 5vh;
+    background-color: var(--darker-color);
+    width: 100%;
+    color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.footer img{
+    width: auto;
+    max-height: 85%;
+    margin: 0 1rem 0 0.2rem;
+}
+
+/*Tablet*/
+@media (min-width: 481px){
+    
+}
+
+/*Desktop*/
+@media (min-width: 1280px){
+    .footer{
+        height: 7vh;
+    }
+}

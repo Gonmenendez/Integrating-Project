@@ -1,0 +1,80 @@
+@import url('@utils/colors.css');
+
+.reservesContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.error{
+    text-align: center;
+    align-self: center;
+    padding: 0px;
+    right: auto;
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+.reservesContainer p{
+    align-self: flex-end;
+    position: relative;
+    right: 4rem;
+}
+
+.sectionContainer {
+    width: 90%;
+}
+
+hr{
+    margin-top: 1rem;
+    border: 1px solid var(--secondary-color);
+}
+
+.reserve{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.reserve img {
+    width: 250px;
+  height: auto;
+}
+
+/*Tablet*/
+@media (min-width: 481px){
+    
+}
+
+@media (min-width: 769px){
+    .info {
+    flex-direction: row;
+    
+    }
+}
+
+/*Desktop*/
+@media (min-width: 1280px){
+   .info {
+    flex-direction: row;
+    
+    }
+}

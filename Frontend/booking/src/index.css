@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+}
+.loading{
+  position: fixed;
+  left: 0px;
+  top: 15vh;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+  background: url('assets/loading.gif') 50% 40% no-repeat rgba(0,0,0, .8);
+  background-size: 100px;
+}
+.react-datepicker__input-container .react-datepicker__calendar-icon {
+    margin: 7px;
+    padding:0px;
+}
+.react-datepicker__view-calendar-icon input {
+    text-align: center;
+}

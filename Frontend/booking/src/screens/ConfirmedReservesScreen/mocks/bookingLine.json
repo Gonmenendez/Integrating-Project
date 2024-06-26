@@ -1,0 +1,298 @@
+[
+    {
+    "id" : 27,
+    "user" : {
+        "id" : null,
+        "name" : "Nes",
+        "lastName": "Frias",
+        "email" : "nestorarielfrias@gmail.com",
+        "role" : null
+    },
+    "bookingLineDTOS":[
+        {
+            "id": 40,
+            "quantity" : 1,
+            "date" : "2022-12-25",
+            "bookingDTO" : null,
+            "tourDTO" : {
+                "id" : 9,
+                "name": "Catedral de Sal Zipaquirá",
+                "description": "Visitamos la primera maravilla de Colombia con un a versión donde te recogemos.",
+                "shortDescription":"Visitamos la primera maravilla de Colombia",
+                "price": 20000.00,
+                "score": 4.0,
+                "duration": "1 dia",
+                "startTime": "10:00:00",
+                "category": {
+                    "title": "Tour grupal", 
+                    "description": "Tomar el tour grupal de ahí o se utilizan las audio guías disponibles e incluidas",
+                    "urlImage":"https://media.staticontent.com/media/pictures/c1c4ef20-6c05-4d8d-9da4-0411c1f124fe/950x696"
+                },
+                "quantity": 10,
+                "availability": { "2022-12-25" : 10 ,"2022-12-26":10 ,"2022-12-27":10 },
+                "images": [
+                    {
+                        "id": 8,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711916453_gall15.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 11,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711917800_gall12.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 10,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711917372_gall13.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 14,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711919175_gall9.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 12,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711918309_gall11.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 9,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711916887_gall14.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 6,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711914494_Guatape.jpg",
+                        "isPrincipal": true
+                    },
+                    {
+                        "id": 13,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711918753_gall10.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 7,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711916035_gall16.jpg",
+                        "isPrincipal": false
+                    }
+                ],
+                "bookingLinesDTO" : null
+            } 
+        },
+        {
+            "id": 41,
+            "quantity" : 1,
+            "date" : "2022-12-25",
+            "bookingDTO" : null,
+            "tourDTO" : {
+                "id" : 9,
+                "name": "Catedral de Sal Zipaquirá",
+                "description": "Visitamos la primera maravilla de Colombia con un a versión donde te recogemos.",
+                "shortDescription":"Visitamos la primera maravilla de Colombia",
+                "price": 20000.00,
+                "score": 4.0,
+                "duration": "1 dia",
+                "startTime": "10:00:00",
+                "category": {
+                    "title": "Tour grupal", 
+                    "description": "Tomar el tour grupal de ahí o se utilizan las audio guías disponibles e incluidas",
+                    "urlImage":"https://media.staticontent.com/media/pictures/c1c4ef20-6c05-4d8d-9da4-0411c1f124fe/950x696"
+                },
+                "quantity": 10,
+                "availability": { "2022-12-25" : 10 ,"2022-12-26":10 ,"2022-12-27":10 },
+                "images": [
+                    {
+                        "id": 8,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711916453_gall15.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 11,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711917800_gall12.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 10,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711917372_gall13.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 14,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711919175_gall9.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 12,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711918309_gall11.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 9,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711916887_gall14.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 6,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711914494_Guatape.jpg",
+                        "isPrincipal": true
+                    },
+                    {
+                        "id": 13,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711918753_gall10.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 7,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711916035_gall16.jpg",
+                        "isPrincipal": false
+                    }
+                ],
+                "bookingLinesDTO" : null
+            } 
+        },
+        {
+            "id": 42,
+            "quantity" : 1,
+            "date" : "2022-12-25",
+            "bookingDTO" : null,
+            "tourDTO" : {
+                "id" : 9,
+                "name": "Catedral de Sal Zipaquirá",
+                "description": "Visitamos la primera maravilla de Colombia con un a versión donde te recogemos.",
+                "shortDescription":"Visitamos la primera maravilla de Colombia",
+                "price": 20000.00,
+                "score": 4.0,
+                "duration": "1 dia",
+                "startTime": "10:00:00",
+                "category": {
+                    "title": "Tour grupal", 
+                    "description": "Tomar el tour grupal de ahí o se utilizan las audio guías disponibles e incluidas",
+                    "urlImage":"https://media.staticontent.com/media/pictures/c1c4ef20-6c05-4d8d-9da4-0411c1f124fe/950x696"
+                },
+                "quantity": 10,
+                "availability": { "2022-12-25" : 10 ,"2022-12-26":10 ,"2022-12-27":10 },
+                "images": [
+                    {
+                        "id": 8,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711916453_gall15.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 11,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711917800_gall12.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 10,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711917372_gall13.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 14,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711919175_gall9.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 12,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711918309_gall11.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 9,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711916887_gall14.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 6,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711914494_Guatape.jpg",
+                        "isPrincipal": true
+                    },
+                    {
+                        "id": 13,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711918753_gall10.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 7,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711916035_gall16.jpg",
+                        "isPrincipal": false
+                    }
+                ],
+                "bookingLinesDTO" : null
+            } 
+        },
+        {
+            "id": 43,
+            "quantity" : 1,
+            "date" : "2022-12-25",
+            "bookingDTO" : null,
+            "tourDTO" : {
+                "id" : 9,
+                "name": "Catedral de Sal Zipaquirá",
+                "description": "Visitamos la primera maravilla de Colombia con un a versión donde te recogemos.",
+                "shortDescription":"Visitamos la primera maravilla de Colombia",
+                "price": 20000.00,
+                "score": 4.0,
+                "duration": "1 dia",
+                "startTime": "10:00:00",
+                "category": {
+                    "title": "Tour grupal", 
+                    "description": "Tomar el tour grupal de ahí o se utilizan las audio guías disponibles e incluidas",
+                    "urlImage":"https://media.staticontent.com/media/pictures/c1c4ef20-6c05-4d8d-9da4-0411c1f124fe/950x696"
+                },
+                "quantity": 10,
+                "availability": { "2022-12-25" : 10 ,"2022-12-26":10 ,"2022-12-27":10 },
+                "images": [
+                    {
+                        "id": 8,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711916453_gall15.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 11,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711917800_gall12.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 10,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711917372_gall13.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 14,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711919175_gall9.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 12,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711918309_gall11.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 9,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711916887_gall14.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 6,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711914494_Guatape.jpg",
+                        "isPrincipal": true
+                    },
+                    {
+                        "id": 13,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711918753_gall10.jpg",
+                        "isPrincipal": false
+                    },
+                    {
+                        "id": 7,
+                        "urlImage": "https://images-tours.s3.us-east-2.amazonaws.com/1686711916035_gall16.jpg",
+                        "isPrincipal": false
+                    }
+                ],
+                "bookingLinesDTO" : null
+            } 
+        }
+    ],
+    "totalPrice" : 60000.0
+}]

@@ -1,0 +1,345 @@
+@import url('@utils/colors.css');
+
+.successfulSubmit{
+    margin: 2rem;
+    min-height: calc(100vh - 5vh - 15vh);
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.successfulSubmit p{
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--darker-color);
+}
+
+.successfulSubmitDiv{
+    gap: 1rem;
+    display: flex;
+}
+
+.successfulSubmitDiv a{
+    font-size: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 0.31rem;
+    padding: 0.7rem;
+    flex-grow: 1;
+    align-self: center;
+}
+
+.successfulSubmitDiv a:active{
+    background-color: var(--darker-color);
+}
+
+.productFormContainer{
+    min-height: calc(100vh - 5vh - 15vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.addProduct {
+    width: 100%;
+    gap: 2rem;
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.productForm {
+    width: 80%;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.productForm div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.productForm label{
+    padding-left: 0.5rem;
+}
+
+.picsInputs{
+    width: 10rem;
+    height: 2.5rem;
+    color: var(--darker-color);
+    background-color: var(--secondary-color);
+    border-radius: 0.31rem;
+    /* box-shadow: 1px 1px 2px var(--primary-color); */
+    display: flex;
+    align-items: center;
+}
+
+.picsInputs:active{
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+    box-shadow: none;
+}
+
+.mainPhotoInput, .picturesInput{
+    flex-direction: row !important;
+    align-items: center;
+}
+
+.mainPhotoInput p{
+    width: 50%;
+    padding-right: 1rem;
+}
+
+.picturesInput p {
+    width: 50%;
+    padding-right: 1rem;
+}
+
+.productForm input{
+    height: 2.5rem;
+    border-radius: 0.31rem;
+    border: solid 1px var(--darker-color);
+    padding-left: 1rem;
+}
+
+.productForm input:focus{
+    background-color: var(--secondary-color);
+}
+
+.productForm textarea{
+    padding-top: 0.7rem;
+}
+
+.addProduct button{
+    color: var(--bg-color);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 0.5;
+    background-color: var(--darker-color);
+    border: none;
+    border-radius: 0.31rem;
+    padding: 0.7rem 1.2rem;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.addProduct .submitButton{
+    opacity: 1;
+}
+
+.addProduct .submitButton:active{
+    background-color: var(--primary-color);
+}
+
+.categoriesProduct{
+    display: flex;
+    align-items: center;
+    flex-direction: row !important;
+}
+
+.assignCategory{
+    width: 10rem;
+    height: 2.5rem;
+    color: var(--darker-color);
+    background-color: var(--secondary-color);
+    border-radius: 0.31rem;
+    padding-left: 0.5rem;
+    /* box-shadow: 1px 1px 5px var(--black); */
+    display: flex;
+    align-items: center;
+}
+
+.assignCategory:active{
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+    box-shadow: none;
+}
+
+.categoriesPicked{
+    color: var(--darker-color);
+    font-size: 0.8rem;
+}
+
+.gallery{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallerySkeleton{
+    width: 95%;
+    height: 30vh;
+    margin-top: 0.5rem;
+    border-radius: 0.31rem;
+    color: var(--bg-color);
+    background-color: var(--darker-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px var(--black);
+}
+
+.galleryImgContainer{
+    width: 95%;
+    height: 30vh;
+    margin-top: 0.5rem;
+    position: relative;
+    display: flex;
+    border-radius: 0.31rem;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    color: var(--bg-color);
+    overflow: hidden;
+    box-shadow: 1px 1px 5px var(--black);
+    background-color: var(--black);
+}
+
+.galleryImgContainer img{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.deleteMainImg{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    border: solid 1px var(--darker-color);
+    border-radius: 50%;
+    background-color: var(--bg-color);
+    box-shadow: 1px 1px 5px var(--black);
+    padding-top: 0.01rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryOpener{
+    width: 100%;
+    height: 100%;
+    font-size: 4rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstGalImg{
+    opacity: 0.3;
+}
+
+.validationError{
+    padding: 0.1rem;
+    padding-left: 1rem;
+    color: var(--error);
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+/*Tablet*/
+@media (min-width: 481px){
+    .gallerySkeleton, .galleryImgContainer{
+        width: 70%;
+    }
+
+    .mainPhotoInput p, .picturesInput p {
+        width: 70%;
+    }
+
+    .successfulSubmit p{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 769px){
+    
+}
+
+/*Desktop*/
+@media (min-width: 1280px){
+    .successfulSubmit{
+        min-height: calc(100vh - 7vh - 15vh);
+    }
+
+    .successfulSubmitDiv a:hover{
+        background-color: var(--darker-color);
+    }
+
+    .successfulSubmitDiv a:active{
+        background-color: var(--bg-color);
+    }
+
+    .productFormContainer{
+        min-height: calc(100vh - 7vh - 15vh);
+        flex-direction: row;
+    }
+
+    .addProduct{
+        width: 60%;
+    }
+
+    .addProduct .submitButton:hover{
+        opacity: 0.7;
+    }
+
+    .addProduct .submitButton:active{
+        background-color: var(--primary-color);
+    }
+
+    .picsInputs:hover, .assignCategory:hover{
+        opacity: 0.8;
+    }
+
+    .mainPhotoInput p, .picturesInput p {
+        width: 80%;
+    }
+
+    .gallery{
+        width: 40%;
+        min-height: calc(100vh - 7vh - 15vh);
+        margin: 0;
+        justify-content: center;
+    }
+
+    .gallerySkeleton{
+        height: 30vh;
+    }
+
+    .galleryImgContainer{
+        height: 30vh;
+    }
+
+    .galleryOpener{
+        z-index: 10;
+    }
+
+    .galleryOpener:hover::before{
+    content: "";
+    position: absolute;
+    background: var(--black);
+    border-radius: 0.31rem;
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+    z-index: -10;
+    }
+}

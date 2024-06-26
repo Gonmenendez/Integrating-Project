@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('../../utils/colors.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+.recommendationsTitle{
+    margin: 2rem 0rem 1.5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2recommend{
+    display: inline;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: var(--white);
+    padding: 0rem 1rem;
+    margin: 0;
+    z-index: 10;
+}
+
+.recommendationsTitle hr{
+    width: 95%;
+    height: 2px;
+    position: absolute;
+    background-color: var(--secondary-color);
+    border: none;
+    top: 50%;
+    z-index: 1;    
+}
+
+.recommendHr{
+    margin: 0;
+}
+
+@media (min-width: 481px){
+    .h2recommend{
+        font-size: 2.5rem;
+    }
+
+    .recommendationsTitle hr{
+        height: 3px;
+    }
+}
+
+@media (min-width: 769px){
+    
+}
+
+@media (min-width: 1280px){
+    
+}

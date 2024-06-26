@@ -1,0 +1,144 @@
+.containerP{
+    width: 100%;
+}
+.containerSections{
+    display: flex;
+    flex-direction: row;
+}
+.sectionsConfirm1{
+    width: 50%;
+}
+
+.error{
+    align-self: center;
+    position: initial;
+}
+
+.sectionsConfirm2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    border-radius: 20px;
+    border: 2px solid rgba(20, 108, 148, 1)
+}
+
+.sectionsConfirm2 img{
+    width: 56%;
+    border-radius: 20px;
+}
+
+.sectionsConfirm2 p{
+    padding: 20px 0px;
+    font-size: 30px;
+}
+
+.sectionsConfirm2 span{
+    color: #146C94;
+}
+
+.titleConfirm{
+    text-align: center;
+    color: #146C94;
+    font-size: 3.0rem;
+    margin: 64px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.0rem;
+    color:#146C94;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    padding: 3%;
+    color:#146C94;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+
+.styledInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+.styledInput::placeholder {
+    color: #999;
+    transition: 0.2s;
+  }
+  
+.styledInput:focus::placeholder,
+.styledInput:not(:placeholder-shown)::placeholder {
+    color: #555;
+    background-color: #fff;
+    padding: 0 4px;
+  }
+
+.button{
+    background-color: #146C94;
+    color: white;
+    padding: 0.7rem;
+    border-radius: 6px;
+    width: 16%;
+    font-size: 23px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+.containerButton{
+    display: flex;
+    justify-content: center;
+    margin-left: 9%;
+}
+
+.reserveModal{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.modalContent{
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent p{
+    font-size: 23px;
+    margin: 20px 0px 60px 0px;
+}
+
+.modalContent i{
+    font-size: 47px;
+    color:#146C94;
+}
+
+.dataContainer{
+    display: flex;
+    justify-content: space-around;
+}
+

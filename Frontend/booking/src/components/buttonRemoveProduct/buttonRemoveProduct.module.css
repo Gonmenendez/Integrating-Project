@@ -1,0 +1,33 @@
+@import url('@utils/colors.css');
+
+.deletedSuccess{
+  color: var(--error);
+  font-size: 2rem;
+  font-weight: lighter;
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  justify-self: center;
+}
+
+.container button{
+  border: none;
+  color: var(--bg-color);
+  background-color: var(--error);
+  border-radius: 0.31rem;
+  padding: 0.7rem;
+  margin: 1rem auto;
+  box-shadow: 1px 1px 1px var(--darker-color);
+}
+
+.container button:active{
+  box-shadow: none;
+  background-color: #8B0000;
+}
+
+.container button:hover{
+  opacity: 0.7;
+  box-shadow: 1px 1px 1px #8B0000;
+}
